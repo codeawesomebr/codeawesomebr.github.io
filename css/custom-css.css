@@ -900,3 +900,21 @@ h2.linhaText:after{
 .lwc-chat-frame{
   height: calc(70vh - 75px) !important;
 }
+
+/*Style modal Conversa Facebook*/
+      .fb_dialog{
+        display:none !important;
+      }      
+      
+      .facebookTeste{
+        max-height:100% !important;   
+      }
+      
+      .fb-customerchat > span > iframe{
+        bottom: 5px !important;
+        
+      }
+      
+      .fb_customer_chat_bounce_in_v2{
+        max-height:100% !important;
+      }
