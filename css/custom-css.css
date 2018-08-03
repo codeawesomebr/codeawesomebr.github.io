@@ -501,10 +501,12 @@ h2.linhaText:after{
   display:flex;
   justify-content:space-between;
   flex-wrap:wrap;
+  align-items: center;
 }
 
 .outros-clientes-logos > img{
   width:15%;
+  height: 100%;
 }
 
 
