@@ -620,6 +620,7 @@
 	<script src="js/main.js"></script>
     <script src="https://swc.cdn.skype.com/sdk/v1/sdk.min.js"></script>
     <script src="codeawesomebr.github.io/js/script.js"></script>
+    <script src="js/facebook-custom-chat.js"></script>
     
 
     <!--Incluindo o chat do facebook-->
@@ -641,22 +642,5 @@
 	  logged_in_greeting="Olá, como podemos ajuda-lo?"
 	  logged_out_greeting="Olá, como podemos ajuda-lo?">
 	</div>
-    <script>
-      $(function(){
-      });
-        
-      $("#facebook-chat").click(facebookDialog);
-      
-      function removeAll(){
-        var facebookModal = $(".fb-customerchat > span > iframe");
-        facebookModal.removeClass("fb_customer_chat_bounce_in_v2");
-        facebookModal.addClass("fb_customer_chat_bounce_out_v2");
-      }
-      
-      function facebookDialog(){
-        var facebookModal = $(".fb-customerchat > span > iframe");
-        facebookModal.toggleClass("fb_customer_chat_bounce_in_v2");
-      }
-    </script>
 </body>
 </html>

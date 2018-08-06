@@ -32,13 +32,19 @@
 	          <ul class="main-menu">
 	            <li><a href="#">Sobre nós</a></li>
 	            <li><a href="#">Trabalhos</a></li>
-	            <li><a href="#">Contato</a></li>
+	            <li class="submenu-tooltip">
+                <span class="contact-text">Contato</span>
+                  <div class="tooltip-content">
+                    <a href="#" data-contact-id="live:codeawesome_3" class="skype-button bubble contact-links"><i class="fab fa-skype"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=5561992663594" class="contact-links" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" id="facebook-chat" class="contact-links"><i class="fab fa-facebook-messenger"></i></a>
+                  </div>
+              </li>
 	          </ul>
 	        </div>
 	        <div class="col-md-2 col-xs-12 main-menu-codeawesome">
 	          <ul class="menu-social-midia">
-	            <li><a href="#"><i class="fab fa-instagram"></a></i></li>
-	            <li><a href="#"><i class="fab fa-whatsapp"></a></i></li>
+	            <li><a href="https://www.instagram.com/code_awesome_/" target="_blank"><i class="fab fa-instagram"></a></i></li>
 	          </ul>
 	        </div>
 	      </div>
@@ -307,4 +313,26 @@
 		    </div>
 		  </div>
 	</footer>
+	<script src="js/facebook-custom-chat.js"></script>
+    
+
+    <!--Incluindo o chat do facebook-->
+    <!--1º passo incluir o SDK do facebook, mudar o código de localidade para seu pais-->
+    <div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<!--2º passo Configuração do plugin em seu site.-->
+	<!-- Your customer chat code -->
+	<div class="fb-customerchat"
+	  attribution=setup_tool
+	  page_id="1980853758600180"
+	  theme_color="#0099ff"
+	  logged_in_greeting="Olá, como podemos ajuda-lo?"
+	  logged_out_greeting="Olá, como podemos ajuda-lo?">
+	</div>
 </body>
