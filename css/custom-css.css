@@ -935,12 +935,13 @@ h2.linhaText:after{
     height:100%;
     min-height: 600px;
     margin: 0 auto;
-    position: absolute;
+    position: fixed;
     top:0px;
     overflow: hidden;
     -webkit-transform: scale(1);
     display:block;
     font-family:'Montserrat', serif;
+    z-index:333;
   }
 
   .menu-trigger, .close-trigger {
@@ -1109,8 +1110,6 @@ h2.linhaText:after{
   .menu-container {
     display: flex;
     align-items: center;
-   
-    border:1px solid;
   }
 
   .menu {
@@ -1240,6 +1239,10 @@ h2.linhaText:after{
     position:absolute;
     top:50%;
     margin-top:-42px;
+  }
+
+  .codeawesome-header{
+    display: none;
   }
   
 }
