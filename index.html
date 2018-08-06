@@ -17,6 +17,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet"> 
 	<title>Code Awesome - Desenvolvimento Web & Recursos</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TimelineMax.min.js"></script>
 </head>
 <body>
 	<header class="codeawesome-header">
@@ -51,6 +53,57 @@
 	    </div>
 	  </div>
 	</header>
+	<!--Start mobile-->
+	<div class="container-mobile-menu">
+	  <span class="mobile-logo">
+	    <img src="https://image.ibb.co/jSWgPH/logo_codeawesome.png" alt="logo codeawesome" border="0" />
+	  </span>
+	  <span class="menu-trigger">
+	    <i class="menu-trigger-bar top"></i>
+	    <i class="menu-trigger-bar middle"></i>
+	    <i class="menu-trigger-bar bottom"></i>
+	  </span>
+	  <span class="close-trigger">
+	    <i class="close-trigger-bar left"></i>
+	    <i class="close-trigger-bar right"></i>
+	  </span>
+	  <div class="inner-container">
+	      <i class="menu-bg top"></i>
+	      <i class="menu-bg middle"></i>
+	      <i class="menu-bg bottom"></i>
+	    <div class="menu-container">
+	      <ul class="menu">
+	        <li>
+	          <a href="#">Sobre nós</a>
+	        </li>
+	        <li>
+	          <a href="#">Trabalhos</a>
+	        </li>
+	        <li>
+	          <a href="#">Serviços</a>
+	        </li>
+	        <li>
+	          <a href="#">Política de Privacidade</a>
+	        </li>
+	        <li class="text-align-center svg-relative">
+	          <div class="col-xs-12 text-align-center padding-25">
+	            Entre em contato
+	          </div>
+	          <div class="icon-chat skype-chat-icon col-xs-4 text-align-center">
+	            <a href="#" data-contact-id="live:codeawesome_3" class="skype-button bubble contact-links"><i class="fab fa-skype"></i></a>
+	          </div>
+	          <div class="icon-chat wpp-chat-icon col-xs-4 text-align-center">
+	            <a href="https://api.whatsapp.com/send?phone=5561992663594" class="contact-links" target="_blank"><i class="fab fa-whatsapp"></i></a>
+	          </div>
+	          <div class="icon-chat facebook-chat-icon col-xs-4 text-align-center">
+	            <a href="#" id="facebook-chat" class="contact-links"><i class="fab fa-facebook-messenger"></i></a>
+	          </div>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</div>
+	<!--End mobile-->
 	<div class="codeawesome-header-section">
 	  <div class="container">
 	    <div class="row">
@@ -618,6 +671,7 @@
 	<script src="js/velocity.ui.min.js"></script>
 	<script src="js/custom.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/mobile-menu-codeawesome.js"></script>
     <script src="https://swc.cdn.skype.com/sdk/v1/sdk.min.js"></script>
     <script src="codeawesomebr.github.io/js/script.js"></script>
     <script src="js/facebook-custom-chat.js"></script>
