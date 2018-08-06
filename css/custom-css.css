@@ -933,7 +933,7 @@ h2.linhaText:after{
     width: 100%;
     max-width: 420px;
     height:100%;
-    min-height: 600px;
+    max-height: 600px;
     margin: 0 auto;
     position: fixed;
     top:0px;
@@ -1115,7 +1115,7 @@ h2.linhaText:after{
   .menu {
     display: block;
     width: 100%;
-    padding: 40% 20%;
+    padding: 28% 20%;
     height:100%;
     background:url('https://image.ibb.co/kcit6K/fundo_codeawesome_footer.png') no-repeat bottom center;
     background-size:100%;
@@ -1123,13 +1123,13 @@ h2.linhaText:after{
   .menu li {
     text-align: left;
     display: block;
-    padding: 15px 0;
+    padding: 8px 0;
   }
   .menu a {
     text-decoration: none;
     color: #222222;
     display: inline-block;
-    padding: 10px 0;
+    padding: 5px 0;
     position: relative;
   }
   .menu a:hover:before {
