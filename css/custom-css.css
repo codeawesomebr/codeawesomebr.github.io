@@ -922,3 +922,10 @@ h2.linhaText:after{
       }
 
 
+@media (max-width: 480px){
+  .codeawesome-header{
+    display: none;
+  }
+
+}
+
