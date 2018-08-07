@@ -961,7 +961,7 @@ h2.linhaText:after{
   }
   
   .depoimentos{
-    padding: 0px;
+    padding: 0px !important;
   }
   
   .desenho-fundo-depoimentos{
