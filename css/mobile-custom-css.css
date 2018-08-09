@@ -1,0 +1,210 @@
+div.mobile-menu{
+    display:none;
+}
+
+@media (max-width: 480px){
+
+div.mobile-menu{
+  width: 100%;
+  height: 630px;
+  positon:fixed;
+  overflow: hidden !important;
+  bottom:0px;
+  z-index:9999;
+  display:block !important;
+}
+
+/*Css botao para abrir menu*/
+.menu__button {
+  --x: -50%;
+  --y: 0;
+  --z: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, var(--cor-gradiente-menu-01), var(--cor-gradiente-menu-02));
+  padding: 10px 20px;
+  border-radius: 28px;
+  color: var(--cor-font-menu);
+  font-size: 16px;
+  font-family: var(--font-menu);
+  white-space: nowrap;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate3d(var(--x), var(--y), var(--z));
+  cursor: pointer;
+  z-index: 105;
+  transition: 0.15s cubic-bezier(0.33, 1, 0.53, 1);
+  border:none;
+}
+.menu__button[hidden]{
+  --y: 200%;
+}
+
+.menu__button svg{
+  font-size: 17px;
+  margin: 1px 10px 0px 0px;
+  color:var(--cor-font-menu);
+}
+
+/*-------------------*/
+
+.menu__overlay {
+  width: 100%;
+  height: 100%;
+  background: var(--fundo-overlay);
+  position: absolute;
+  z-index: 100;
+  opacity:0.1;
+}
+
+/*CSS menu de navegação*/
+.menu__body {
+  --x: 0;
+  --y: 0;
+  --z: 0;
+  display: block;
+  width: 100%;
+  background: var(--fundo-menu-navegation);
+  padding-bottom: 15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0px -9px 50px -30px black;
+  font-family: var(--font-menu);
+  position: absolute;
+  bottom: 0;
+  z-index: 105;
+  transform: translate3d(var(--x), var(--y), var(--z));
+  transition: 0.2s cubic-bezier(0.33, 1, 0.53, 1);
+}
+.menu__body[hidden], #mapa-empresa[hidden]{
+  --y: 150%;
+}
+.menu__body > *:not(:last-child) {
+  border-bottom: 1px solid var(--cor-separador);
+}
+
+.menu__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.menu__header span img{
+  width:200px !important;
+  vertical-align: center;
+  white-space: nowrap;
+}
+
+.menu__header h3 {
+  font-weight: normal;
+}
+
+.close{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border:none;
+  border-radius: 50%;
+  cursor: pointer;
+  position:absolute;
+  top:10px;
+  right:10px;
+}
+
+.close svg {
+  font-size:25px;
+  color: var(--button-fechar);
+}
+.menu__header button div:before {
+  content: '';
+  width: 3px;
+  height: 15px;
+  background: var(--light);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu__links {
+  display: flex;
+  padding: 10px 15px;
+  font-weight: bold;
+  overflow-x: auto;
+}
+.menu__links a {
+  flex: 1 1 1px;
+  padding: 10px 8px;
+  color: var(--cor-menu-links);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+
+.menu__contact {
+  display: flex;
+  padding: 8px;
+}
+.menu__contact svg {
+  width: 100%;
+  font-size:20px;
+  fill: var(--cor-icones-contato);
+  display:block;
+  margin:6px auto;
+  text-align:center;
+}
+.menu__contact a {
+  flex: 1 1 30%;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+  background: var(--fundo-icones-contato);
+  color: var(--cor-icones-contato);
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration:none;
+}
+
+#mapa-empresa {
+  --x: 0;
+  --y: 0;
+  --z: 0;
+  display: block;
+  width: 100%;
+  background: var(--fundo-menu-navegation);
+  padding-bottom: 15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0px -9px 50px -30px black;
+  font-family: var(--font-menu);
+  position: absolute;
+  bottom: 0;
+  z-index: 1055;
+  transform: translate3d(var(--x), var(--y), var(--z));
+  transition: 0.2s cubic-bezier(0.33, 1, 0.53, 1);
+  height:430px;
+}
+
+#mapa-empresa > div.mapa > iframe{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.responsive-layout header.main-header.layout-logo-menu .first-row .logo-wrapper .logo img{
+max-width: 100%;
+}
+
+.logo{
+width: 100%;
+}
+
+.logo-menu-mobile{
+margin:0px;
+}
+}
