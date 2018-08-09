@@ -1,3 +1,32 @@
+:root {
+  --dark:#282828;
+  --font-menu:'Nunito', sans-serif;
+  /*Propriedades do botão do menu*/
+  --cor-font-menu:#fff;
+  --cor-gradiente-menu-01:#0099cc;
+  --cor-gradiente-menu-02:#b3ecff;
+  /*-----------------------------*/
+  /*Propriedades do menu de navegação*/
+  --fundo-menu-navegation:#fff;
+  --cor-separador:#f6f6f6;
+  --button-fechar:rgba(0,0,0,0.4);
+  --cor-menu-links:#666;
+  --fundo-icones-contato:#f6f6f6;
+  --cor-icones-contato:#666666;
+  --fundo-overlay:#181818;
+  /*---------------------------------*/
+ 
+  --light: #fff;
+  --neutral: #f6f6f6;
+  --neutral-dark: #d1d1d1;
+  --color: #fb5c06;
+  --color-light: #941ed2;
+  --color-dark: #282828;
+  --font-stack: 'Josefin Sans', 'Montserrat', 'sans-serif';
+  
+}
+
+
 div.mobile-menu{
     display:none;
 }
@@ -7,7 +36,7 @@ div.mobile-menu{
 div.mobile-menu{
   width: 100%;
   height: 630px;
-  positon:fixed;
+  position:fixed;
   overflow: hidden !important;
   bottom:0px;
   z-index:9999;
