@@ -178,6 +178,7 @@ div.mobile-menu{
 .menu__contact {
   display: flex;
   padding: 8px;
+  justify-content: space-between;
 }
 .menu__contact svg {
   width: 100%;
@@ -188,7 +189,6 @@ div.mobile-menu{
   text-align:center;
 }
 .menu__contact a {
-  flex: 1 1 30%;
   padding: 5px;
   margin: 5px;
   border-radius: 8px;
@@ -260,6 +260,8 @@ margin:0px;
   .contact-links-mobile > i{
     display: block;
     font-size: 21px;
-    margin-bottom: 5px;
+    padding: 10px;
+    max-width: 50px;
+    max-height: 50px;
   }
 }
