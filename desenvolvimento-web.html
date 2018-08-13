@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/social.css" />
 	<link rel="stylesheet" type="text/css" href="css/social-mobile-max768.css" />
 	<link rel="stylesheet" type="text/css" href="css/custom-css.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile-custom-css.css">
 	<link rel="stylesheet" href="css/Footer-white.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -51,6 +52,58 @@
 	    </div>
 	  </div>
 	</header>
+	<!--Start Mobile-->
+	<button class="menu__button" style="background: #282828; position: fixed;">
+	   <i class="fas fa-bars"></i>
+	</button>
+    <div class="mobile-menu" style="height: 0%;">
+      <!--Botão para abrir o menu-->
+      <section class="menu__body">
+        <div class="menu__header">
+        <!--Logo do menu mobile-->
+        <span class="logo-menu-mobile"><img src="https://image.ibb.co/jSWgPH/logo_codeawesome.png" alt="logo_icode" border="0"></span>
+
+        <!--Botão de fechar menu-->
+        <button title="Close" class="close">
+          <i class="far fa-times-circle"></i>
+        </button>
+        </div>
+
+        <!--Itens do menu mobile-->
+        <div class="menu__links">
+          <a href="#0">Sobre nós</a>
+          <a href="#0">Trabalhos</a>
+          <a href="#0">Serviços</a>
+          <a href="#0">Política de Privacidade</a>
+        </div>
+
+        <!--Icones de acesso rápido, ligar, email, facebook etc.-->
+        <div class="menu__contact">
+            <a id="phone-chat" href="tel:6136292085" class="contact-links-mobile">
+              <i class="fas fa-phone"></i>
+            </a>
+            <a id="wpp-chat" href="https://api.whatsapp.com/send?phone=5561992663594" class="contact-links-mobile" target="_blank">
+            	<i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="#" id="facebook-chat" class="contact-links-mobile">
+            	<i class="fab fa-facebook-messenger"></i>
+            </a>
+            <a href="https://www.instagram.com/code_awesome_/" id="instagram-mobile-icon" class="contact-links-mobile">
+            	<i class="fab fa-instagram"></i>
+            </a>
+         </div>
+       </section>
+       <div id="mapa-empresa" hidden="hidden">
+         <div class="mapa">
+            <button title="Close" class="close">
+              <i class="far fa-times-circle"></i>
+            </button>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.920117176298!2d-47.985009385621446!3d-16.06963458888066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9359841f0e6d2d81%3A0x2380f29e34dae63a!2sUnnamed+Road%2C+Valpara%C3%ADso+de+Goi%C3%A1s+-+GO!5e0!3m2!1spt-BR!2sbr!4v1523484098162" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+         </div>
+       </div>
+       <div class="menu__overlay" hidden="hidden"></div>
+    </div>
+	<!--End Mobile-->
 	<div class="code-awesome-service-page padding-50 padding-top">
 		<div class="container">
 			<div class="row">
@@ -320,6 +373,7 @@
 		<script src="js/velocity.ui.min.js"></script>
 		<script src="js/custom.js"></script>
 		<script src="js/main.js"></script>
+		<script src="js/mobile-menu-script.js"></script>
 	    <script src="https://swc.cdn.skype.com/sdk/v1/sdk.min.js"></script>
 	    <script src="codeawesomebr.github.io/js/script.js"></script>
 	    <script src="js/facebook-custom-chat.js"></script>
