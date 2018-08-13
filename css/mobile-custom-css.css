@@ -50,7 +50,7 @@ div.mobile-menu{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(to right, var(--cor-gradiente-menu-01), var(--cor-gradiente-menu-02));
+  background: #282828;
   padding: 10px 20px;
   border-radius: 28px;
   color: var(--cor-font-menu);
