@@ -27,7 +27,7 @@
 }
 
 
-div.mobile-menu{
+div.mobile-menu, .menu__button{
     display:none;
 }
 
