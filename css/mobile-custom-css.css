@@ -249,25 +249,33 @@ margin:0px;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    font-size: 40px;
+    font-size: 40px;  
+  }
+  
+  .menu__contact a:hover{
+    color:#fff;
   }
   
   .menu__contact a#facebook-chat{
     background-color: #0099ff;
+    background: linear-gradient(0deg, #0070fd 0%, #00c6ff 100%);
   }
 
   .menu__contact a#wpp-chat{
     background-color: #6c0;
+    background: linear-gradient(0deg, #2cb741 0%, #a0dea5 100%);
   }
 
   .menu__contact a#phone-chat{
     color: #fff;
     background: #666;
+    background: linear-gradient(0deg, #66cc00 0%, #99ff33 100%);
   }
 
   .menu__contact a#instagram-mobile-icon{
     color: #fff;
     background: #666;
+    background: radial-gradient(closest-side at 22% 13%, #002aff -110%, #ee2a7b 400%, #f9ed32 650%);
   }
   
   .contact-links-mobile > svg{
