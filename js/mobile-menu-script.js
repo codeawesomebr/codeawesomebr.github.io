@@ -1,5 +1,5 @@
 var button = document.querySelector('.menu__button');
-var menu = document.querySelector('.menu__body');
+var menu = document.querySelector('.mobile-menu');
 var close = document.querySelectorAll('.close');
 var overlay = document.querySelector('.menu__overlay');
 var mapaEmpresa = document.querySelector('#icode-mapa');
