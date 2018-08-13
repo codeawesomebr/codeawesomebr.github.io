@@ -242,6 +242,13 @@ margin:0px;
     color: #fff;
     font-weight: 500;
     padding:0px;
+    max-width: 50px;
+    max-height: 45px;
+    min-width: 45px;
+    min-height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .menu__contact a#facebook-chat{
@@ -259,9 +266,7 @@ margin:0px;
   
   .contact-links-mobile > i{
     display: block;
-    font-size: 21px;
+    font-size: 25px;
     padding: 10px;
-    max-width: 50px;
-    max-height: 50px;
   }
 }
