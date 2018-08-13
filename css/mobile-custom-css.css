@@ -263,6 +263,11 @@ margin:0px;
     color: #fff;
     background: #666;
   }
+
+  .menu__contact a#instagram-mobile-icon{
+    color: #fff;
+    background: #666;
+  }
   
   .contact-links-mobile > svg{
     display: block;
