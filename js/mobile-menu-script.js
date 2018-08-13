@@ -4,19 +4,22 @@ var close = document.querySelectorAll('.close');
 var overlay = document.querySelector('.menu__overlay');
 var mapaEmpresa = document.querySelector('#icode-mapa');
 var mostraMapa = document.querySelector('#mapa-empresa');
+var mobileMenu = $('.mobile-menu');
 
 function showMenu() {
+	mobileMenu.css("height", "100%");
 	button.setAttribute('hidden', '');
 	menu.removeAttribute('hidden');
 	overlay.removeAttribute('hidden');
-  mostraMapa.setAttribute('hidden', '');
+  	mostraMapa.setAttribute('hidden', '');
 };
 
 function hideMenu() {
+	mobileMenu.css("height", "0%")
 	menu.setAttribute('hidden', '');
 	overlay.setAttribute('hidden', '');
 	button.removeAttribute('hidden');
-  mostraMapa.setAttribute('hidden', '');
+  	mostraMapa.setAttribute('hidden', '');
 };
 
 function showMap(){
