@@ -241,18 +241,20 @@ margin:0px;
     background: #fff;
     color: #fff;
     font-weight: 500;
+    padding:0px;
   }
   
   .menu__contact a#facebook-chat{
-    color: #0078ff;
+    background-color: #0099ff;
   }
 
   .menu__contact a#wpp-chat{
-    color: #169e0e;
+    background-color: #6c0;
   }
 
   .menu__contact a#phone-chat{
-    color: #282828;
+    color: #fff;
+    background: #666;
   }
   
   .contact-links-mobile > i{
