@@ -62,7 +62,7 @@ div.mobile-menu{
   left: 50%;
   transform: translate3d(var(--x), var(--y), var(--z));
   cursor: pointer;
-  z-index: 105;
+  z-index: 9999;
   transition: 0.15s cubic-bezier(0.33, 1, 0.53, 1);
   border:none;
 }
