@@ -264,7 +264,7 @@ margin:0px;
     background: #666;
   }
   
-  .contact-links-mobile > i{
+  .contact-links-mobile > svg{
     display: block;
     font-size: 25px;
     padding: 10px;
