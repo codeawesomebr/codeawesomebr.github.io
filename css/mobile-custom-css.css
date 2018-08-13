@@ -246,6 +246,14 @@ margin:0px;
   .menu__contact a#facebook-chat{
     color: #0078ff;
   }
+
+  .menu__contact a#wpp-chat{
+    color: #169e0e;
+  }
+
+  .menu__contact a#phone-chat{
+    color: #282828;
+  }
   
   .contact-links-mobile > i{
     display: block;
