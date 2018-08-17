@@ -302,8 +302,8 @@ margin:0px;
     text-align: center;
   }
   
-  .codeawesome-porque-fazemos{
-    text-align: center;
+  .codeawesome-porque-fazemos div.text-right{
+    text-align: center !important;
   }
   
   #team-codeawesome figure img:nth-of-type(1){
