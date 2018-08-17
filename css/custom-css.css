@@ -555,7 +555,7 @@ h2.linhaText:after{
 .item-page-flex{
   display:flex;
   align-items:center;
-  font-size:18px;
+  font-size:17px;
 }
 
 .item-page-flex > i{
@@ -658,7 +658,7 @@ h2.linhaText:after{
 }
 
 .padding-15{
-  padding:15px 0px;
+  padding:15px 0px !important;
 }
 
 .padding-60-all{
@@ -920,6 +920,149 @@ h2.linhaText:after{
       .fb_customer_chat_bounce_in_v2{
         max-height:100% !important;
       }
+
+/*Style pagina sobre*/
+
+.code-awesome-intro-about .code-awesome-intro-about-text{
+  padding-top:35px;
+}
+
+.codeawesome-valores-text-info h2{
+  font-size:16px;
+}
+
+.codeawesome-valores-text-info h2 a{
+  font-family:'Montserrat', sans-serif;
+}
+
+.codeawesome-valores-img-info img{
+  padding-top:20px;
+  width:100%;
+}
+
+.text-right{
+  text-align:right;
+}
+
+.porque-fazemos-text div h2{
+  margin-bottom:25px;
+}
+
+#team-codeawesome{
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  flex-direction:row;
+  flex-wrap:wrap;
+  align-content:flex-end;
+  padding-right: 0px;
+}
+
+#team-codeawesome figure {
+  width:9.5rem;
+  height:9.5rem;
+  display:block;
+  padding:0;
+  box-sizing:content-box;
+  color:black;
+}
+
+#team-codeawesome figure img {
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;  
+  border-radius:50%;
+  width:100%;
+}
+
+#team-codeawesome figure img:nth-of-type(1){
+  margin-left:15px;
+}
+
+.tooltip-team{
+  position:relative;
+}
+
+.tooltip-team::after{
+  content: '';
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background: #09f;
+  top: 0;
+  left: 0;
+  top: 0%;
+  left: 15%;
+  border-radius: 50%;
+  opacity: .5;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .7s;
+}
+
+.tooltip-team:hover span.tooltiptext{
+  visibility:visible;
+  opacity:1;
+  transition: opacity .7s;
+}
+
+.tooltip-team:hover:after{
+  visibility:visible;
+  opacity:.4;
+  transition: opacity .7s;
+}
+
+.tooltip-team.team-blue:after{
+  background:#09f;
+}
+
+.tooltip-team.team-red:after{
+  background:#ff3333;
+}
+
+.tooltip-team.team-green:after{
+  background:#66cc00;
+}
+
+.tooltip-team.team-yellow:after{
+  background:#ffcc00;
+}
+
+.tooltip-team > span.tooltiptext{
+  position:absolute;
+  top: 113px;
+  left: -6px;
+  width: 140px;
+  text-align: center;
+  font-size: 11px;
+  padding: 13px;
+  border-radius: 10px;
+  background: #282828;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  visibility:hidden;
+  opacity:0;
+  transition:opacity .7s;
+}
+
+.tooltiptext::before {
+    content: "";
+    position: absolute;
+    top: -27%;
+    left: 47%;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #282828 transparent;
+}
+
+.tooltip-area{
+  font-weight: 700;
+  font-size: 10px;
+  display:block;
+}
+
+/*Fim Style*/
 
 
 @media (max-width: 480px){
