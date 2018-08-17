@@ -282,4 +282,42 @@ margin:0px;
     font-size: 25px;
     padding: 10px;
   }
+
+  /*Mobile page about*/
+  .code-awesome-intro-about .code-awesome-intro-about-text{
+    text-align: center;
+  }
+  
+  .code-awesome-intro-about div:nth-of-type(2) > img{
+    margin-top: 30px;
+    padding: 0px !important;
+  }
+  
+  .codeawesome-valores{
+    padding: 0px !important;
+  }
+  
+  .codeawesome-valores .codeawesome-servicos > div{
+    padding: 0px;
+    text-align: center;
+  }
+  
+  .codeawesome-porque-fazemos{
+    text-align: center;
+  }
+  
+  #team-codeawesome figure img:nth-of-type(1){
+    margin: 0px !important;
+  }
+  
+  #team-codeawesome{
+    padding: 0px !important;
+    justify-content: space-around;
+  }
+  
+  .item-page-flex{
+    font-size: 11px;
+  }
+  
+  /*end style*/
 }
