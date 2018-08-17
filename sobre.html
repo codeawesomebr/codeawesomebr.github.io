@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/logo/logo-codeawesome.png" type="image/x-icon"/>
+	<!-- CSS dependencies -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="css/font-style.css" />
+	<link rel="stylesheet" type="text/css" href="css/social.css" />
+	<link rel="stylesheet" type="text/css" href="css/social-mobile-max768.css" />
+	<link rel="stylesheet" type="text/css" href="css/custom-css.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile-custom-css.css">
+	<link rel="stylesheet" href="css/Footer-white.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet"> 
+	<title>Code Awesome - Desenvolvimento Web & Recursos</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TimelineMax.min.js"></script>
+</head>
+<body>
+	<header class="codeawesome-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<div class="col-md-2 col-xs-12 codeawesome-logo">
+						<a href="https://codeawesomebr.github.io/">
+							<img src="https://image.ibb.co/jSWgPH/logo_codeawesome.png" alt="Code Awesome Logo Branca"/>
+						</a>
+					</div>
+					<div class="col-md-8 col-xs-12 main-menu-codeawesome">
+						<ul class="main-menu">
+							<li><a href="#">Sobre nós</a></li>
+							<li><a href="#">Trabalhos</a></li>
+							<li class="submenu-tooltip">
+								<span class="contact-text">Contato</span>
+								<div class="tooltip-content">
+									<a href="#" data-contact-id="live:codeawesome_3" class="skype-button bubble contact-links"><i class="fab fa-skype"></i></a>
+									<a href="https://api.whatsapp.com/send?phone=5561992663594" class="contact-links" target="_blank"><i class="fab fa-whatsapp"></i></a>
+									<a href="#" id="facebook-chat" class="contact-links"><i class="fab fa-facebook-messenger"></i></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-2 col-xs-12 main-menu-codeawesome">
+						<ul class="menu-social-midia">
+							<li><a href="https://www.instagram.com/code_awesome_/" target="_blank"><i class="fab fa-instagram"></a></i></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!--Start Mobile-->
+	<button class="menu__button" style="background: #282828; position: fixed;">
+		<i class="fas fa-bars"></i>
+	</button>
+	<div class="mobile-menu" style="height: 0%;">
+		<!--Botão para abrir o menu-->
+		<section class="menu__body">
+			<div class="menu__header">
+				<!--Logo do menu mobile-->
+				<span class="logo-menu-mobile"><img src="https://image.ibb.co/jSWgPH/logo_codeawesome.png" alt="logo_icode" border="0"></span>
+
+				<!--Botão de fechar menu-->
+				<button title="Close" class="close">
+					<i class="far fa-times-circle"></i>
+				</button>
+			</div>
+
+			<!--Itens do menu mobile-->
+			<div class="menu__links">
+				<a href="#0">Sobre nós</a>
+				<a href="#0">Trabalhos</a>
+				<a href="#0">Serviços</a>
+				<a href="#0">Política de Privacidade</a>
+			</div>
+
+			<!--Icones de acesso rápido, ligar, email, facebook etc.-->
+			<div class="menu__contact">
+				<a id="phone-chat" href="tel:6136292085" class="contact-links-mobile">
+					<i class="fas fa-phone"></i>
+				</a>
+				<a id="wpp-chat" href="https://api.whatsapp.com/send?phone=5561992663594" class="contact-links-mobile" target="_blank">
+					<i class="fab fa-whatsapp"></i>
+				</a>
+				<a href="https://m.me/codeawesomebr" id="facebook-chat" class="contact-links-mobile">
+					<i class="fab fa-facebook-messenger"></i>
+				</a>
+				<a href="https://www.instagram.com/code_awesome_/" id="instagram-mobile-icon" class="contact-links-mobile">
+					<i class="fab fa-instagram"></i>
+				</a>
+			</div>
+		</section>
+		<div id="mapa-empresa" hidden="hidden">
+			<div class="mapa">
+				<button title="Close" class="close">
+					<i class="far fa-times-circle"></i>
+				</button>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.920117176298!2d-47.985009385621446!3d-16.06963458888066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9359841f0e6d2d81%3A0x2380f29e34dae63a!2sUnnamed+Road%2C+Valpara%C3%ADso+de+Goi%C3%A1s+-+GO!5e0!3m2!1spt-BR!2sbr!4v1523484098162" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="menu__overlay" hidden="hidden"></div>
+	</div>
+	<!--End Mobile-->
+	<div class="padding-50 padding-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12 code-awesome-intro-about">
+					<div class="col-md-6 col-xs-12 code-awesome-intro-about-text">
+						<h2>Olá, nós somos a Code Awesome</h2>
+						<p>Somos um grupo de desenvolvedores criativo e estratégico baseado em UI e UX Design, no Brasil. Nossa equipe de profissionais inovadores é apaixonada por parceirias com boas pessoas e organizações para projetar soluções personalizadas excepcionais. Nós nos esforçamos para que o seu projeto seja sempre além do que se espera.</p>
+						<p>Quer ter impacto no mundo web? Como podemos te ajudar?</p>
+						<div class="col-md-12 col-xs-12 padding-15">
+							<a class="button blueButton" href="#">Solicite um orçamento</a>
+						</div>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<img src="images/svg/team-sobre.svg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="codeawesome-valores padding-50">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<div class="col-md-12 col-xs-12">
+						<div class="col-md-3 col-xs-12"></div>
+						<div class="col-md-6 col-xs-12 text-center">
+							<h2>O que nós fazemos</h2>
+							<p>Nossas habilidades são específicas e ajustadas. Somos especialistas, não generalistas. Nós construímos experiências para elevar e capacitar as organizações.</p>
+						</div>
+						<div class="col-md-3 col-xs-12"></div>
+					</div>
+					<div class="col-md-12 col-xs-12 padding-25">
+						<div class="col-md-6 col-xs-12">
+							<div class="col-md-12 col-xs-12 padding-25">
+								<div class="col-md-5 col-xs-12 codeawesome-valores-img-info">
+									<img src="https://www.creatio.com.au/static/images/img/work-websites.svg">
+								</div>
+								<div class="col-md-7 col-xs-12 codeawesome-valores-text-info">
+									<h2><a href="https://codeawesomebr.github.io/desenvolvimento-web.html">Desenvolvimento Web</a></h2>
+									<p>Nós projetamos e desenvolvemos websites e aplicativos web escaláveis ​​usando estruturas e tecnologias modernas. Desde websites simples e E-commerce até redes sociais.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<div class="col-md-12 col-xs-12 padding-25">
+								<div class="col-md-5 col-xs-12 codeawesome-valores-img-info">
+									<img src="https://codeawesomebr.github.io/images/svg/email-web.svg">
+								</div>
+								<div class="col-md-7 col-xs-12 codeawesome-valores-text-info">
+									<h2><a href="https://codeawesomebr.github.io/email-web.html">E-mail Web</a></h2>
+									<p>Criamos e-mails a base de código HTML para você enviar para seus clientes. Tornando o conteudo do e-mail mais dinâmico, podendo colocar links, botões e muito mais.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<div class="col-md-12 col-xs-12 padding-25">
+								<div class="col-md-5 col-xs-12 codeawesome-valores-img-info">
+									<img src="https://codeawesomebr.github.io/images/svg/seo.png">
+								</div>
+								<div class="col-md-7 col-xs-12 codeawesome-valores-text-info">
+									<h2><a href="https://codeawesomebr.github.io/seo.html">SEO Expert</a></h2>
+									<p>Otimizamos a sua presença no mundo web. Hoje em dia a empresa que não aparece nos moteres de buscas é praticamente invisivel para os usuários.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<div class="col-md-12 col-xs-12 padding-25">
+								<div class="col-md-5 col-xs-12 codeawesome-valores-img-info">
+									<img src="https://codeawesomebr.github.io/images/svg/design-web.svg">
+								</div>
+								<div class="col-md-7 col-xs-12 codeawesome-valores-text-info">
+									<h2><a href="https://codeawesomebr.github.io/designweb.html">Design Web</a></h2>
+									<p>Fornecemos o design de UX e UI para todos os nossos projetos ou como um serviço autônomo. Isso inclui wireframes, imagens svg, protótipos e muito mais.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="codeawesome-porque-fazemos padding-25">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12 porque-fazemos-text">
+					<div class="col-md-6 col-xs-12">
+						<h2>Por que fazemos</h2>
+						<p>Nós acreditamos no poder da web e no quanto ela pode te ajudar nos dias de hoje. Vivemos na era da tecnologia e quanto mais as pessoas se aproximam dela mais elas gostam. A tecnologia nos ajuda muito a facilitar os processos que todos tinham dificuldades antigamente, seja mandar uma mensagem, realizar uma ligação, encontrar um endereço, etc, a tecnologia esta presente.</p>
+						<p>A Code Awesome conta com uma equipe criativa e estratégica de profissionais baseados principalmente no conceito de facilidade na comunicação, sempre desenvolvendo o que a de mais atual no mercado e tentando facilitar a interação entre cliente-empresa.</p>
+					</div>
+					<div class="col-md-6 col-xs-12 text-right">
+						<h2>Não apenas umas caras bonitas</h2>
+						<div id="team-codeawesome" class="col-md-12 col-xs-12">
+							<figure class="tooltip-team team-blue">
+								<img src="https://codeawesomebr.github.io/images/profile/profile-team-codeawesome-adriano-nascentes.jpg">
+								<span class="tooltiptext">
+									<span class="tooltip-name">Adriano Nascentes</span>
+									<span class="tooltip-area">Diretor</span>
+									<span class="tooltip-area">Desenvolvedor-Chefe</span>
+									<span class="tooltip-area">SEO Expert</span>
+								</span>
+							</figure>
+							<figure class="tooltip-team team-green">
+								<img src="https://codeawesomebr.github.io/images/profile/profile-team-codeawesome-felipe.jpg">
+								<span class="tooltiptext">
+									<span class="tooltip-name">Felipe Silva</span>
+									<span class="tooltip-area">Desenvolvedor</span>
+									<span class="tooltip-area">SEO Expert</span>
+								</span>
+							</figure>
+							<figure class="tooltip-team team-yellow">
+								<img src="https://codeawesomebr.github.io/images/profile/profile-team-codeawesome-pedro.jpg">
+								<span class="tooltiptext">
+									<span class="tooltip-name">Pedro Henrique</span>
+									<span class="tooltip-area">Design Web</span>
+									<span class="tooltip-area">Design UI / UX</span>
+								</span>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="code-awesome-padroes padding-25">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12 info-service-page">
+					<h2 class="padding-25">Nossos padrões</h2>
+					<div class="col-md-4 col-xs-12 info-service-page-item">
+						<div class="col-md-12 col-xs-12 item-service-page">
+							<div class="item-page-flex">
+								<span class="icon">
+									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+										<circle class="blueCircle" style="fill:#93c01f;" cx="25" cy="25" r="25"></circle>
+										<polyline style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
+										38,15 22,33 12,25 "></polyline>
+									</svg>
+								</span>Melhorar</div>
+							</div>
+							<div class="col-md-12 col-xs-12 item-service-page">
+								<div class="item-page-flex"><span class="icon">
+									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+										<circle class="blueCircle" style="fill:#93c01f;" cx="25" cy="25" r="25"></circle>
+										<polyline style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
+										38,15 22,33 12,25 "></polyline>
+									</svg>
+								</span>Qualidade acima de quantidade</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12 info-service-page-item">
+							<div class="col-md-12 col-xs-12 item-service-page">
+								<div class="item-page-flex"><span class="icon">
+									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+										<circle class="redCircle" style="fill:#93c01f;" cx="25" cy="25" r="25"></circle>
+										<polyline style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
+										38,15 22,33 12,25 "></polyline>
+									</svg>
+								</span>Faça mais perguntas</div>
+							</div>
+							<div class="col-md-12 col-xs-12 item-service-page">
+								<div class="item-page-flex"><span class="icon">
+									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+										<circle class="redCircle" style="fill:#93c01f;" cx="25" cy="25" r="25"></circle>
+										<polyline style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
+										38,15 22,33 12,25 "></polyline>
+									</svg>
+								</span>Nunca pare de aprender</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12 info-service-page-item">
+							<div class="col-md-12 col-xs-12 item-service-page">
+								<div class="item-page-flex"><span class="icon">
+									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+										<circle class="yellowCircle" style="fill:#93c01f;" cx="25" cy="25" r="25"></circle>
+										<polyline style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
+										38,15 22,33 12,25 "></polyline>
+									</svg>
+								</span>Trabalhe para viver</div>
+							</div>
+							<div class="col-md-12 col-xs-12 item-service-page">
+								<div class="item-page-flex"><span class="icon">
+									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+										<circle class="yellowCircle" style="fill:#93c01f;" cx="25" cy="25" r="25"></circle>
+										<polyline style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
+										38,15 22,33 12,25 "></polyline>
+									</svg>
+								</span>Mantenha simples</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="codeawesome-intro-section padding-25">
+			<svg version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 1340 16" style="enable-background:new 0 0 1340 16;" xml:space="preserve">
+				<rect x="-85" y="1" rx="7" ry="7" width="100" height="15"
+				style="fill:var(--corAmarelaLogo);opacity:var(--opacityLine)" />
+				<rect x="25" y="1" rx="7" ry="7" width="70" height="15"
+				style="fill:var(--corAzulLogo);opacity:var(--opacityLine)" />
+				<rect x="105" y="1" rx="7" ry="7" width="15" height="15"
+				style="fill:var(--corAmarelaLogo);opacity:var(--opacityLine)" />
+				<rect x="130" y="1" rx="7" ry="7" width="150" height="15"
+				style="fill:var(--corVerdeLogo);opacity:var(--opacityLine)" />
+				<rect x="130" y="1" rx="7" ry="7" width="50" height="15"
+				style="fill:var(--corVermelhaLogo);opacity:var(--opacityLine)" />
+				<rect x="290" y="1" rx="7" ry="7" width="15" height="15"
+				style="fill:var(--corAzulLogo);opacity:var(--opacityLine)" />
+				<rect x="315" y="1" rx="7" ry="7" width="15" height="15"
+				style="fill:var(--corVermelhaLogo);opacity:var(--opacityLine)" />
+				<rect x="340" y="1" rx="7" ry="7" width="30" height="15"
+				style="fill:var(--corVermelhaLogo);opacity:var(--opacityLine)" />
+				<rect x="380" y="1" rx="7" ry="7" width="30" height="15"
+				style="fill:var(--corAzulLogo);opacity:var(--opacityLine)" />
+				<rect x="420" y="1" rx="7" ry="7" width="130" height="15"
+				style="fill:var(--corVermelhaLogo);opacity:var(--opacityLine)" />
+				<rect x="560" y="1" rx="7" ry="7" width="15" height="15"
+				style="fill:var(--corAzulLogo);opacity:var(--opacityLine)" />
+				<rect x="585" y="1" rx="7" ry="7" width="15" height="15"
+				style="fill:var(--corAzulLogo);opacity:var(--opacityLine)" />
+				<rect x="610" y="1" rx="7" ry="7" width="40" height="15"
+				style="fill:var(--corVermelhaLogo);opacity:var(--opacityLine)" />
+				<rect x="660" y="1" rx="7" ry="7" width="60" height="15"
+				style="fill:var(--corVermelhaLogo);opacity:var(--opacityLine)" />
+				<rect x="730" y="1" rx="7" ry="7" width="40" height="15"
+				style="fill:var(--corAzulLogo);opacity:var(--opacityLine)" />
+				<rect x="780" y="1" rx="7" ry="7" width="15" height="15"
+				style="fill:var(--corAzulLogo);opacity:var(--opacityLine)" />
+				<rect x="805" y="1" rx="7" ry="7" width="15" height="15"
+				style="fill:var(--corAzulLogo);opacity:var(--opacityLine)" />
+				<rect x="830" y="1" rx="7" ry="7" width="60" height="15"
+				style="fill:var(--corVermelhaLogo);opacity:var(--opacityLine)" />
+				<rect x="900" y="1" rx="7" ry="7" width="100" height="15"
+				style="fill:var(--corAzulLogo);opacity:var(--opacityLine)" />
+				<rect x="1010" y="1" rx="7" ry="7" width="70" height="15"
+				style="fill:var(--corAmarelaLogo);opacity:var(--opacityLine)" />
+				<rect x="1010" y="1" rx="7" ry="7" width="30" height="15"
+				style="fill:var(--corVerdeLogo);opacity:var(--opacityLine)"/>
+				<rect x="1065" y="1" rx="7" ry="7" width="15" height="15"
+				style="fill:var(--corVermelhaLogo);opacity:var(--opacityLine)" />
+				<rect x="1090" y="1" rx="7" ry="7" width="15" height="15"
+				style="fill:var(--corAmarelaLogo);opacity:var(--opacityLine)" />
+				<rect x="1115" y="1" rx="7" ry="7" width="150" height="15"
+				style="fill:var(--corVermelhaLogo);opacity:var(--opacityLine)" />
+				<rect x="1275" y="1" rx="7" ry="7" width="15" height="15"
+				style="fill:var(--corVerdeLogo);opacity:var(--opacityLine)" />
+				<rect x="1300" y="1" rx="7" ry="7" width="15" height="15"
+				style="fill:var(--corAmarelaLogo);opacity:var(--opacityLine);" />
+				<rect x="1325" y="1" rx="7" ry="7" width="30" height="15"
+				style="fill:var(--corAzulLogo);opacity:var(--opacityLine)" />
+			</svg>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-xs-12 codeawesome-section-projeto-ideia padding-50">
+						<div class="col-md-2 col-xs-12"></div>
+						<div class="col-md-8 col-xs-12">
+							<h2>Você tem algum projeto ou ideia?</h2>
+							<div class="col-md-12 col-xs-12 padding-25">
+								<div class="col-md-2 col-xs-12"></div>
+								<div class="col-md-4 col-xs-12">
+									<p><a class="button blueButton" target="_blank" href="https://dribbble.com/smartie">Solicite um orçamento</a></p>
+								</div>
+								<div class="col-md-4 col-xs-12">
+									<p><a class="button blueButton" target="_blank" href="https://dribbble.com/smartie">Entre em contato</a></p>
+								</div>
+								<div class="col-md-2 col-xs-12"></div>
+							</div>
+						</div>
+						<div class="col-md-2 col-xs-12"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<footer id="myFooter">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-xs-12 codeawesome-logo-footer">
+						<img src="https://image.ibb.co/jSWgPH/logo_codeawesome.png" alt="logo codeawesome" border="0" />
+					</div>
+					<div class="col-md-12 col-xs-12">
+						<ul>
+							<li><a href="#">Sobre nós</a></li>
+							<li><a href="#">Trabalhos</a></li>
+							<li><a href="#">Política de Privacidade</a></li>
+						</ul>
+						<p class="footer-copyright">© 2018 Code Awesome</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Javascript -->
+		<script src="js/jquery-1.11.2.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/velocity.min.js"></script>
+		<script src="js/velocity.ui.min.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/mobile-menu-codeawesome.js"></script>
+		<script src="https://swc.cdn.skype.com/sdk/v1/sdk.min.js"></script>
+		<script src="codeawesomebr.github.io/js/script.js"></script>
+		<script src="js/facebook-custom-chat.js"></script>
+		<script src="js/mobile-menu-script.js"></script>
+
+
+		<!--Incluindo o chat do facebook-->
+		<!--1º passo incluir o SDK do facebook, mudar o código de localidade para seu pais-->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<!--2º passo Configuração do plugin em seu site.-->
+		<!-- Your customer chat code -->
+		<div class="fb-customerchat"
+		attribution=setup_tool
+		page_id="1980853758600180"
+		theme_color="#0099ff"
+		logged_in_greeting="Olá, como podemos ajuda-lo?"
+		logged_out_greeting="Olá, como podemos ajuda-lo?">
+	</div>
+</body>
+</html>
