@@ -1064,6 +1064,85 @@ h2.linhaText:after{
 
 /*Fim Style*/
 
+/*Style page clientes*/
+.thumbnail{
+  position:relative;
+  padding:0px !important;
+  border:none !important;
+}
+
+.thumbnail:hover .caption{
+  visibility:visible;
+  opacity:1;
+}
+
+.caption{
+  opacity:0;
+  transition: all .5s ease;
+  visibility:hidden;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  padding: 25px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  color: #fff !important;
+}
+
+.caption > p{
+  color:#fff;
+}
+
+.caption-link{
+  padding: 5px 25px;
+  border-radius: 40px;
+  background: #fff;
+}
+
+.captionBlue{
+  background: rgba(0, 153, 255, .7);
+}
+
+.captionBlue > a.caption-link{
+  color: rgba(0, 153, 255, 1);
+}
+
+.captionRed{
+  background: rgba(255, 51, 51, .7);
+}
+
+.captionRed > a.caption-link{
+  color: rgba(255, 51, 51, 1);
+}
+
+.captionGreen{
+  background: rgba(102, 204, 0, .7);
+}
+
+.captionGreen > a.caption-link{
+  color:rgba(102, 204, 0, 1);
+}
+
+.captionYellow{
+  background: rgba(255, 204, 0, .7);
+}
+
+.captionYellow > a.caption-link{
+  color:rgba(255, 204, 0, 1);
+}
+
+.caption-ano{
+  font-weight:bolder;
+}
+
+/*Fim Style*/
+
 
 @media (max-width: 480px){
   .codeawesome-header{
