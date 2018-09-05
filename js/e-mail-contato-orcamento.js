@@ -11,8 +11,10 @@ function deleteElements(){
 	setInterval(function(){
 		var elementButtonToggle = $('.eapps-contact-form-toggle');
 		var elementLinkToggle = $('[href="https://apps.elfsight.com/?utm_source=websites&utm_medium=clients&utm_content=contact-form&utm_term=undefined&utm_campaign=free-widget"]');
+		var elementLinkToggle2 = $('[href="https://apps.elfsight.com/?utm_source=websites&utm_medium=clients&utm_content=contact-form&utm_term=codeawesomebr.github.io&utm_campaign=free-widget"]');
 		elementButtonToggle.remove();
 		elementLinkToggle.remove();
+		elementLinkToggle2.remove();
 	}, 0);	
 }
 
