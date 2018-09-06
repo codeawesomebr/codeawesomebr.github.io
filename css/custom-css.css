@@ -1144,6 +1144,13 @@ h2.linhaText:after{
 /*Fim Style*/
 
 
+/*Style Formulário solicite um orçamento*/
+
+.eapps-contact-form-field-label, .eapps-contact-form-field-input-text::-moz-placeholder, .eapps-contact-form-field-input-textarea::-moz-placeholder, .eapps-contact-form-field-input-text{
+  font-weight: 500 !important;
+}
+
+
 @media (max-width: 480px){
   .codeawesome-header{
     display: none;
