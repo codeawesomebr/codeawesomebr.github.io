@@ -487,6 +487,7 @@ h2.linhaText:after{
 
 .item-depoimento > .media > .media-body span{
   color: #818e9b;
+  line-height: 1.2;
 }
 
 .item-depoimento > .media > .media-left img{
@@ -1191,10 +1192,6 @@ h2.linhaText:after{
   
   .depoimentos{
     padding: 0px !important;
-  }
-  
-  .desenho-fundo-depoimentos{
-    top:73px;
   }
   
   .outros-clientes-logos{
